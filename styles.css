@@ -1,0 +1,200 @@
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Estilos para el header */
+    .encabezado {
+        background-color: #333; /* Color de fondo oscuro */
+        color: #fff; /* Color del texto blanco */
+        font-size: 15px; /* Tamaño de fuente más pequeño */
+        margin-bottom: 5px; /* Margen inferior para separar el header del contenido */
+        margin-top: 0; /* Elimina el margen superior del p */
+        padding: 5px 10px; /* Espacio interno más pequeño */
+        
+      }
+     body {
+     padding: 20px; /* Espacio entre el contenedor principal y el borde del navegador */
+     }
+
+
+     .encabezado h1 {
+     font-size: 15px; /* Tamaño de fuente más grande para el h1 */
+     margin: 0; /* Elimina el margen predeterminado del h1 */
+     padding: 0px;
+     margin-top: 0; /* Elimina el margen superior del p */
+    
+     }
+     .contenedor-principal {
+     background-color: #6b6666; /* Color de fondo gris claro */
+     padding: 10px; /* Espacio interno del contenedor */
+     height: 800px; /* Altura del contenedor principal */
+     overflow: auto; /* Esto permitirá que el contenedor se despliegue automáticamente al agregar contenido */
+     min-height: 100%; /* Esto asegurará que el contenedor tenga una altura mínima igual al tamaño de la ventana gráfica */
+     
+     }
+  
+    
+   /* Estilos para la imagen dentro del contenedor principal */
+   .imagen {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    display: block; /* Hace que la imagen se muestre como un bloque */
+    margin-bottom: 20px; /* Margen inferior para separar la imagen del resto del contenido */
+    float: left; /* Alinea la imagen a la izquierda */
+
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+
+
+   /* Estilos para el div de la imagen dentro del contenedor principal */
+   .contenedor-imagen {
+  
+    max-width: 600px; /* Ancho máximo del contenedor de la imagen */
+    max-height: 300px; 
+    overflow: hidden; /* Evita que el contenido flote fuera del contenedor */
+    border: solid;
+    display: inline-block;
+    flex: 1; 
+    height: 60vh;
+    
+  }
+
+    /* Estilos para el párrafo */
+    
+      .parques{
+       
+            /* Colocar el float: right;  contenedor a la derecha de la imagen */
+            /* width: calc(50% - 80px);  */
+            
+            border: solid;
+            display: inline-block; /* Mostrar el párrafo en modo bloque */
+             max-width: 668px;  /* Ancho máximo del contenedor*/
+             max-height: 300px;    
+              flex:1;
+              height: 60vh;
+              font-size: 15px;
+              overflow: hidden;
+              
+           
+      }
+
+
+      .navbar {
+        background-color: #333; /* Color de fondo de la barra de navegación */
+        overflow: hidden; /* Para que los elementos floten correctamente */
+       
+    }
+    
+    .navbar ul {
+        list-style-type: none; /* Eliminar los puntos de la lista */
+        margin: 0;
+        padding: 0;
+       
+    }
+    
+    .navbar ul li {
+        float: left; /* Para que los elementos de la lista estén en línea */
+        
+    }
+    
+    .navbar ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+    
+    .navbar ul li a:hover {
+        background-color: #111; /* Color de fondo cuando se pasa el mouse sobre los enlaces */
+        
+    }
+    
+    
+    .spacer {
+      height: 20px; /* Puedes ajustar la altura según tus necesidades */
+     
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #90ee90;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-principal {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+      
+}
+
+.aside {
+    flex: 1;
+    background-color: #add8e6;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    background-color: #87cefa;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #ffdab9;
+}
+
+.img {
+    background-color: #ffa07a;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+footer {
+    background-color: #d3d3d3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    flex: 1;
+    padding: 10px;
+    background-color: #a9a9a9;
+    margin: 5px;
+    text-align: center;
+    flex-direction: column;
+}
